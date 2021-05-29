@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter,Route, Link, Switch} from "react-router-dom";
+import {BrowserRouter,Route, Link} from "react-router-dom";
 import React from 'react'
 
 function Home(props){
@@ -17,9 +16,6 @@ function Chat(props){
 }
 
 function App() {
-  const handleClick = (event)=>{
-    event.preventDefault()
-  }
   return (
 
       <div className="App">
